@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-20T21:10:46 IST" name="TestSuite" finished-at="2024-11-20T21:11:09 IST" duration-ms="23215">
+    <groups>
+      <group name="Master">
+        <method signature="TC6_EndToEndTest.executeEndToEndTest()[pri:0, instance:testcases.TC6_EndToEndTest@5aceec94]" name="executeEndToEndTest" class="testcases.TC6_EndToEndTest"/>
+      </group> <!-- Master -->
+    </groups>
+    <test started-at="2024-11-20T21:10:46 IST" name="windows-chrome" finished-at="2024-11-20T21:11:09 IST" duration-ms="23215">
+      <class name="testcases.TC6_EndToEndTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC6_EndToEndTest@5aceec94]" started-at="2024-11-20T21:10:46 IST" name="setUp" finished-at="2024-11-20T21:10:48 IST" duration-ms="1762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="executeEndToEndTest()[pri:0, instance:testcases.TC6_EndToEndTest@5aceec94]" started-at="2024-11-20T21:10:48 IST" name="executeEndToEndTest" finished-at="2024-11-20T21:11:08 IST" duration-ms="20154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeEndToEndTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC6_EndToEndTest@5aceec94]" started-at="2024-11-20T21:11:08 IST" name="tearDown" finished-at="2024-11-20T21:11:09 IST" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC6_EndToEndTest -->
+    </test> <!-- windows-chrome -->
+  </suite> <!-- TestSuite -->
+</testng-results>

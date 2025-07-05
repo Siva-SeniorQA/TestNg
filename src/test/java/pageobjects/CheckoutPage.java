@@ -15,8 +15,6 @@ public class CheckoutPage {
     WebDriver driver;
     WebDriverWait wait;
 
-//    WebDriver driver;
-//    WebDriverWait wait;
 
     // Constructor
     public CheckoutPage(WebDriver driver) {

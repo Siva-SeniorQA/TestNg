@@ -22,7 +22,7 @@ public class LoginPage {
     }
 
     // WebElements using @FindBy
-    @FindBy(xpath = "//input[@id='input-email']")
+    @FindBy(xpath = "//input[@id='input-email1']")
     WebElement txtEmailAddress;
 
     @FindBy(xpath = "//input[@id='input-password']")

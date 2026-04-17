@@ -14,7 +14,9 @@ import java.time.Duration;
 
 public class cross {
 
-
+//    WebDriver driver;
+//    @BeforeMethod
+//    @Parameters({"browser"})
         WebDriver driver;
         @BeforeMethod
         @Parameters({"browser"})
